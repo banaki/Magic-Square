@@ -10,13 +10,6 @@ int i, j;
 int lowerCase;   // if j == 0 
 int upperCase;   // if j != 0
 
-printf("\n\n1. Choose any two-digit number in the table above.\n");
-printf("2. Subtract its two digits from itself (e.g. 45 - 4 - 5 = 36).\n");
-printf("3. Find this new number (e.g. 36) and remember the letter next to it.\n");
-printf("4. Now press the return key and I'll read your mind ...\n\n");
-getchar();
-
-
 //while(1){
 int magicLetter =  'a' + rand()%26;
   for(i=99; i>-1; i--){
@@ -42,7 +35,11 @@ int magicLetter =  'a' + rand()%26;
     printf("%d. %c\t", i, upperCase);
 
   }  //ends for loop
- 
+ printf("\n\n1. Choose any two-digit number in the table above.\n");
+printf("2. Subtract its two digits from itself (e.g. 45 - 4 - 5 = 36).\n");
+printf("3. Find this new number (e.g. 36) and remember the letter next to it.\n");
+printf("4. Now press the return key and I'll read your mind ...\n\n");
+getchar();
 //  getchar();
 
 //  Give the directions to user
