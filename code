@@ -1,15 +1,6 @@
-/*  Project 1: Magic Square
- *  Josh Banicki
- *  Lab 1:00pm-1:50pm
- *  CS 141
- *  Date due: 1/22/16
- */ 
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 
 int main () {
 srand((unsigned)time(NULL));
